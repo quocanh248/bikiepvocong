@@ -1,0 +1,13 @@
+- Cài đặt Windown server 2019
+	+ Manager server -> IIS
+	+ Cài đặt visul C++ 2019
+	+ Cài đặt: MYSQL server
+	+ Cài đặt Xampp -> Edit system Enviroment variables -> Enviroment variables (thêm đường dẫn C:\\xampp\php)
+	+ Cài đặt php cgi
+	+ Cài đặt php manager: https://github.com/phpmanager/phpmanager/releases
+	+ Cài đặt url rewrite: https://www.iis.net/downloads/microsoft/url-rewrite
+	+ Cài đặt node.js
+	+ Cài đặt IIS node https://github.com/azure/iisnode/wiki/iisnode-releases
+	+ Deploy api js (import) [vào c:\program\iisnode đổi tệp interceptor.js]
+
+	

@@ -1,0 +1,8 @@
+- Copy dữ liệu từ bảng A -> B
+	INSERT INTO dulieu_itg_old 
+    		(lenhsanxuat, sochungtu, congdoan, ketqua, label, sanphammoi, model, soluong, lot, ngay, giobatdau, gioketthuc, manhanvien, tennhanvien, quanly, mathung, sttthung, mathietbi, vitri, noidungloi, ttcongdoan)
+	SELECT 
+    		lenhsanxuat, sochungtu, congdoan, ketqua, label, sanphammoi, model, soluong, lot, ngay, giobatdau, gioketthuc, manhanvien, tennhanvien, quanly, mathung, sttthung, mathietbi, vitri, noidungloi, ttcongdoan
+	FROM dulieu_itg
+	WHERE 
+		lot < 5320240701;

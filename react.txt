@@ -1,0 +1,17 @@
+ <DataTable
+     columns={columns_detail}
+     data={result}
+     fixedHeader //Cố định header table
+     fixedHeaderScrollHeight="360px"    //Cố định header table
+     responsive
+     selectableRows // Chọn hàng
+     onRowClicked={(row) => console.log("Clicked row:", row)}
+     subHeader
+     subHeaderComponent={
+        <input type="text" placeholder="Tìm kiếm..." />
+     }
+     expandableRows // Mở rộng hàng
+     expandOnRowClicked // Mở rộng hàng
+     dense //Thu nhỏ độ cao hàng
+     highlightOnHover //hover
+/>                                      
